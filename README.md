@@ -1,4 +1,4 @@
-#### 3D Dice only CSS.
+#### 3Dice pure CSS.
 
 
 - Live: https://ff-10.github.io/3Dice/
