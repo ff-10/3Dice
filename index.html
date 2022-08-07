@@ -59,8 +59,8 @@
   </div>
 	  
   <div class="auto__rotate__container">
-    <button type="button" onclick="auto__mode__on()">Auto Rotate On</button>
-    <button type="button" onclick="auto__mode__off()">Auto Rotate Off</button>
+    <button type="button" onclick="() => (document.querySelector('.dice').style.animationName = 'auto_rotate')">Auto Rotate On</button>
+    <button type="button" onclick="() => (document.querySelector('.dice').style.animationName = '')">Auto Rotate Off</button>
   </div>
 	  
     <script src="dice.js"></script>
